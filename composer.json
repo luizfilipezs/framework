@@ -1,0 +1,34 @@
+{
+  "name": "luizfilipezs/framework",
+  "description": "PHP basic framework",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Luizilipezs\\Framework\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Luizilipezs\\Application\\": "app/",
+      "Luizilipezs\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Luiz Filipe da Silva",
+      "email": "filipeluiz.bs@gmail.com"
+    }
+  ],
+  "scripts": {
+    "format": "php-cs-fixer fix",
+    "test": "phpunit tests"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "3.0",
+    "phpunit/phpunit": "^12.0"
+  },
+  "require": {
+    "luizfilipezs/container": "^1.0"
+  }
+}

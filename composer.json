@@ -5,13 +5,13 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Luizilipezs\\Framework\\": "src/"
+      "Luizfilipezs\\Framework\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Luizilipezs\\Application\\": "app/",
-      "Luizilipezs\\Tests\\": "tests/"
+      "Luizfilipezs\\Application\\": "app/src/",
+      "Luizfilipezs\\Tests\\": "tests/"
     }
   },
   "authors": [

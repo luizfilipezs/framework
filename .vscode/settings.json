@@ -8,11 +8,11 @@
     "commands": [
       {
         "match": "\\.php$",
-        "cmd": "PHP_CS_FIXER_IGNORE_ENV=1 composer format ."
+        "cmd": "set PHP_CS_FIXER_IGNORE_ENV=1 && composer format \"${file}\""
       },
       {
         "match": "\\.(php|json)$",
-        "cmd": "npm run format ."
+        "cmd": "npm run format \"${file}\""
       }
     ]
   },

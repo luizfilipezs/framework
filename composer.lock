@@ -8,16 +8,16 @@
   "packages": [
     {
       "name": "luizfilipezs/container",
-      "version": "v1.0.0",
+      "version": "1.0.3",
       "source": {
         "type": "git",
         "url": "https://github.com/luizfilipezs/container.git",
-        "reference": "f8bacb4410677c429b782702fbd1a0ec8a848f40"
+        "reference": "25858adb473ebb6f9d5bc77896c88a2411833829"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/luizfilipezs/container/zipball/f8bacb4410677c429b782702fbd1a0ec8a848f40",
-        "reference": "f8bacb4410677c429b782702fbd1a0ec8a848f40",
+        "url": "https://api.github.com/repos/luizfilipezs/container/zipball/25858adb473ebb6f9d5bc77896c88a2411833829",
+        "reference": "25858adb473ebb6f9d5bc77896c88a2411833829",
         "shasum": ""
       },
       "require": {
@@ -46,9 +46,9 @@
       "description": "Dependency injection container",
       "support": {
         "issues": "https://github.com/luizfilipezs/container/issues",
-        "source": "https://github.com/luizfilipezs/container/tree/v1.0.0"
+        "source": "https://github.com/luizfilipezs/container/tree/1.0.3"
       },
-      "time": "2025-03-24T20:41:06+00:00"
+      "time": "2025-03-31T14:31:15+00:00"
     }
   ],
   "packages-dev": [
